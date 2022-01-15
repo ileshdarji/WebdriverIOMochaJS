@@ -1,0 +1,26 @@
+{
+  "name": "webdriveriomochajs",
+  "version": "1.0.0",
+  "description": "WebdriverIO JavaScript Mocha framework for vortic.art",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run wdio.conf.js"
+  },
+  "author": "Ilesh Darji",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.16.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "@babel/register": "^7.16.9",
+    "@wdio/allure-reporter": "^7.16.13",
+    "@wdio/local-runner": "^7.16.13",
+    "@wdio/mocha-framework": "^7.16.13",
+    "@wdio/spec-reporter": "^7.16.13",
+    "chromedriver": "^97.0.0",
+    "wdio-chromedriver-service": "^7.2.6",
+    "wdio-wait-for": "^2.2.1"
+  }
+}
